@@ -12,9 +12,36 @@
     text-align: left;
 }
 
+a{
+  text-decoration: none;
+}
+
 nav {
      display: flex;
 }
+
+.resumeButton {
+       height: 50px;
+       width:  200px;
+       background-color: #0069BF;
+       color: white;
+       font-family: Montserrat;
+       border-radius: 5px;
+       box-shadow: none;
+       border: none;
+       margin-left: 25%;
+       margin-top: 25px;
+}
+
+ .resumeButton:hover{
+     background-color: #02498A;
+}
+
+ a:hover{
+     color: #02498A;
+}
+
+
 
 .herolmg {
           display: flex;
@@ -27,13 +54,16 @@ nav {
           justify-content: space-around;
 }
 
+.appsImg {
+           margin-left: 33%;
+}
 .text {
        font-family: Montserrat;
 }
 .apps{
           display: flex;
           background-color: white;  
-          justify-content: space-around;
+          justify-content: center;
 }
 
 .mySkills {
