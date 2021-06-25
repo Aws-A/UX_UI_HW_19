@@ -19,8 +19,7 @@ nav {
 .herolmg {
           display: flex;
           height: 400px;
-          padding: 25px;
-          background-color: #E7ECFA;    
+          padding: 25px;   
           justify-content: space-around;      
 }
 
@@ -28,6 +27,9 @@ nav {
           justify-content: space-around;
 }
 
+.text {
+       font-family: Montserrat;
+}
 .apps{
           display: flex;
           background-color: white;  
@@ -59,20 +61,22 @@ nav a {
     padding: 50px;
     font-size: 20px;
     font-family: Alegreya;
+    color: #0069BF;
 }
 
 footer {
-        background-image: url("../images/footer.png");
+        background-color: #0069BF;
         padding: 50px;
         background-repeat: no-repeat;
         background-size: 100%;
         text-align: center;
 }
 
-footer a { display: inline-block;
+footer a {  display: inline-block;
             vertical-align: top;
             padding: 50px;
             justify-content: space-between;
+            color: white;
 }
 
 body {
