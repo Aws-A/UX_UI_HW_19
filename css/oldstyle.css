@@ -1,0 +1,109 @@
+.navigation {
+             display: flex;
+             justify-content: space-between;
+             height: 100px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 750px;
+    padding: 1%;
+    text-align: left;
+}
+
+nav {
+     display: flex;
+}
+
+.btn {
+       
+}
+
+.herolmg {
+          display: flex;
+          height: 400px;
+          padding: 25px;
+          background-color: #E7ECFA;    
+          justify-content: space-around;      
+}
+
+.myWork {
+          justify-content: space-around;
+}
+
+.apps{
+          display: flex;
+          background-color: white;  
+          justify-content: space-around;
+}
+
+.mySkills {
+          height: 400px;
+          padding: 25px;
+          background-color: #E7ECFA;    
+          justify-content: space-around;
+
+}
+
+.illus {
+          display: flex;
+          background-color: #E7ECFA;    
+          justify-content: space-around;
+}
+
+.card {   display: flex;
+          background-color: white;
+          width: 300px;
+          flex-direction: column;
+          justify-content: space-between;
+}
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Alegreya;
+}
+
+footer {
+        background-image: url("../images/footer.png");
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+}
+
+footer a { display: inline-block;
+            vertical-align: top;
+            padding: 50px;
+            justify-content: space-between;
+}
+
+body {
+      margin: 0px;
+      width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Alegreya;
+
+}
+li {
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 0px;
+    justify-content: top;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
